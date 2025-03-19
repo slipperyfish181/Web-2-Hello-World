@@ -1,0 +1,59 @@
+body {
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body:hover {
+    background-color: green;
+}
+
+a:visited {
+    color: purple;
+}
+
+h1,
+h2,
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    background: white;
+    padding: 20px;
+}
+
+a {
+    color: red;
+}
+
+body:first-child {
+    background-color: blue;
+}
+
+a:link {
+    color: green;
+
+}
+
+a:active {
+    background-color: brown;
+}
+
+a:special {
+    color: orange;
+}
+
+.special {
+    font-size: 30px;
+}
+
+p::spelling-error {
+    color: purple;
+}
+
+::marker {
+    color: red;
+    font-size: 23px;
+}
